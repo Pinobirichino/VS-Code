@@ -1,0 +1,61 @@
+/* Reset di base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff; /* Sfondo bianco */
+    font-family: 'Poppins', sans-serif; /* Stile di scrittura pulito e moderno */
+    color: #333333;
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Menù laterale a sinistra */
+.sidebar {
+    width: 260px;
+    background-color: #f8f9fa; /* Grigio molto chiaro per staccare dal bianco */
+    border-right: 2px solid #e9ecef;
+    padding: 40px 20px;
+}
+
+.sidebar ul {
+    list-style-type: disc; /* Elenco puntato */
+    padding-left: 20px;
+}
+
+.sidebar li {
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #4a90e2; /* Blu soft (puoi cambiarlo quando vuoi) */
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.sidebar a:hover {
+    color: #e67e22; /* Arancione al passaggio del mouse */
+}
+
+/* Area centrale */
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Titolo grande centrale */
+.main-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #2c3e50; /* Blu scuro elegante */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
